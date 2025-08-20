@@ -1,0 +1,38 @@
+body{
+	background-color: #f3f2e2;
+	color:#291B06;
+	font-family: "Arial";
+	display: row;
+	align-content: flex-start;
+	margin: 10%;
+
+}
+
+.topo{	
+	display: flex;
+	gap: 3%;	
+}
+
+
+img{	
+	width: 15%;
+	border-radius: 15px;
+}
+
+p{	
+    font-size: 18px;
+	margin-top: 3%;
+	text-align: justify;
+    
+}
+
+.links{
+
+    display: flex;
+    gap: 1%;
+
+}
+
+a{
+    color:#291B06;
+}
