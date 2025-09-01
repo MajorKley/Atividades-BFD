@@ -1,0 +1,54 @@
+* { margin: 0; padding: 0; }
+
+body{
+  width: 1040px;
+  margin: auto;
+  background-color: #E5B493;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#510907;
+}
+
+h1{
+  color: beige;
+  width: 1040px;
+  font-size: 60px;
+  background-color: #510907;
+  padding: 2%;
+  text-align: center;
+}
+
+section{
+  margin: 5%;
+}
+
+.titulo{
+  font-size: 30px;
+  padding-bottom: 5%;
+}
+
+.titulo_excessao{
+  font-size: 30px;
+}
+
+.alinhamento-grid{
+  display: flex;
+  gap: 5%;
+}
+
+.titulo_subtitulo{
+  padding-bottom: 5%;
+}
+h3{
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.descricao{
+  text-align: justify;
+}
+
+.preco{
+  padding-top: 5%;
+  font-size: 20px;
+  font-weight: bold;
+
+}

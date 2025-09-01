@@ -1,11 +1,12 @@
 body{
 	background-color: #f3f2e2;
 	color:#291B06;
-	font-family: "Arial";
-	display: row;
-	align-content: flex-start;
-	margin: 10%;
-
+	font-family: Arial, sans-serif;
+	width: 1024px;
+	height: 576px;
+	line-height: 150%;
+	margin:auto;
+	margin-top: 10rem;
 }
 
 .topo{	
@@ -22,15 +23,12 @@ img{
 p{	
     font-size: 18px;
 	margin-top: 3%;
-	text-align: justify;
-    
+	text-align: justify; 
 }
 
 .links{
-
     display: flex;
     gap: 1%;
-
 }
 
 a{
