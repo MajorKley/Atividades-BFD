@@ -3,9 +3,9 @@
 body{
   width: 1040px;
   margin: auto;
-  background-color: #E5B493;
+  background-color: #f4c8aa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:#510907;
+  color:#210403;
 }
 
 h1{
@@ -24,10 +24,12 @@ section{
 .titulo{
   font-size: 30px;
   padding-bottom: 5%;
+  color: #510907;
 }
 
 .titulo_excessao{
   font-size: 30px;
+  color: #510907;
 }
 
 .alinhamento-grid{
@@ -38,10 +40,13 @@ section{
 .titulo_subtitulo{
   padding-bottom: 5%;
 }
+
 h3{
   padding-top: 10%;
   padding-bottom: 5%;
+  color: #510907;
 }
+
 .descricao{
   text-align: justify;
 }
@@ -50,5 +55,5 @@ h3{
   padding-top: 5%;
   font-size: 20px;
   font-weight: bold;
-
+  color: #a74b0a;
 }

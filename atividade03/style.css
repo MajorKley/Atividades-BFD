@@ -1,0 +1,13 @@
+/*azul principal: 2F5572
+amarelo principal: D4953F*/
+
+body {
+  width: 1920px;
+}
+.meu-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(47, 86, 116, 0.9);
+}
