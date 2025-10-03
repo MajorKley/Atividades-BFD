@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,42 +12,71 @@
     <form id="meuFormulario">
         <legend>Entendendo Programação</legend>
         <div>
-            <p>Qual a linguagem usada para decorar a página?</p>
-            <input type="radio" id="javascript" name="01pergunta">
+            <p>01 - Qual a linguagem usada para decorar a página?</p>
+
+            <input type="radio" id="javascript" name="01pergunta" value="javascript">
             <label>Javascript</label>
-            <input type="radio" id="css" name="01pergunta">
+
+            <input type="radio" id="css" name="01pergunta" value="css">
             <label>CSS</label>
-            <input type="radio" id="html" name="01pergunta">
+
+            <input type="radio" id="html" name="01pergunta" value="html">
             <label>Html</label>
         </div>
         <div>
-            <p>Qual a linguagem que esta imagem representa</p>
-            <input type="radio"id="java" name="02pergunta" >
+            <div>
+                <p>02 - Qual a linguagem que esta imagem representa</p>
+                <img src="imagem-java.webp" width="20%">
+            </div>
+
+
+            <input type="radio" id="java" name="02pergunta" value="java">
             <label>Java</label>
-            <input type="radio"id="javascript" name="02pergunta" >
+
+            <input type="radio" id="javascript" name="02pergunta" value="javascript">
             <label>Javascript</label>
-            <input type="radio" id="python" name="02pergunta">
+
+            <input type="radio" id="python" name="02pergunta" value="python">
             <label>python</label>
         </div>
         <div>
-            <p>O que a tag reader faz?</p>
-            <input type="radio" id="body" name="03pergunta">
-            <label>contém todo o conteúdo visível de uma página web, como textos, 
-                imagens, formulários e outros elementos que o usuário final vê e interage</label>
-            <input type="radio"id="footer" name="03pergunta">
+            <p>03 - O que a tag reader faz?</p>
+
+            <input type="radio" id="body" name="03pergunta" value="reader-errada">
+            <label>contém todo o conteúdo visível de uma página web, como textos,
+                imagens, formulários e outros elementos que o usuário final vê e interage</label><br>
+
+            <input type="radio" id="footer" name="03pergunta" value="reader-errada">
             <label>representa o rodapé de uma página ou de uma seção específica de uma página,
                 contendo informações como direitos autorais, autorias, links de contato,
-                políticas de privacidade e links para documentos relacionados</label>
-            <input type="radio"id="header" name="03pergunta">
+                políticas de privacidade e links para documentos relacionados</label><br>
+
+            <input type="radio" id="header" name="03pergunta" value="reader-certa">
             <label>define um cabeçalho para uma página ou uma seção de conteúdo</label>
 
         </div>
-<div>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
-</div>
-    </form>
+        <div>
+            <p>04 - Para que serve uma div?</p>
 
+            <input type="radio" id="form" name="04pergunta" value="div-errada">
+            <label>serve como um contêiner para coletar e
+                enviar dados de um usuário a um servidor web</label><br>
+
+            <input type="radio" id="container" name="04pergunta" value="div-errada">
+            <label>agrupa e organiza outros elementos</label><br>
+
+
+            <input type="radio" id="div" name="04pergunta" value="div-certa">
+            <label>serve como um contêiner genérico para agrupar outros elementos,
+                permitindo organizar e estilizar blocos de conteúdo em uma página</label>
+
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <script src="script.js"></script>
 </body>
 
 </html>
