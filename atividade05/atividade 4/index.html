@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-
-</head>
-
-<body>
-    <form id="meuFormulario">
-        <legend>Entendendo Programação</legend>
-        <div>
-            <p>01 - Qual a linguagem usada para decorar a página?</p>
-
-            <input type="radio" id="javascript" name="01pergunta" value="javascript">
-            <label>Javascript</label>
-
-            <input type="radio" id="css" name="01pergunta" value="css">
-            <label>CSS</label>
-
-            <input type="radio" id="html" name="01pergunta" value="html">
-            <label>Html</label>
-        </div>
-        <div>
-            <div>
-                <p>02 - Qual a linguagem que esta imagem representa</p>
-                <img src="imagem-java.webp" width="20%">
+    <title>Quiz de Programação</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    </head>
+      
+    <body class="bg-info p-4"> 
+    <div class="container bg-white p-4 shadow-sm rounded"> 
+        <h1 class="text-center mb-4">Entendendo Programação</h1> 
+        <form id="meuFormulario">
+            
+            <div class="mb-4 p-3 border rounded">
+                <p class="fw-bold">01 - Qual a linguagem usada para decorar a página?</p>
+                
+                <div class="form-check text-start"> <input class="form-check-input" type="radio" id="js-q1" name="01pergunta" value="javascript">
+                    <label class="form-check-label" for="js-q1">Javascript</label>
+                </div>
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="css-q1" name="01pergunta" value="css">
+                    <label class="form-check-label" for="css-q1">CSS</label>
+                </div>
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="html-q1" name="01pergunta" value="html">
+                    <label class="form-check-label" for="html-q1">Html</label>
+                </div>
             </div>
 
+            <div class="mb-4 p-3 border rounded text-center">
+                <p class="fw-bold">02 - Qual a linguagem que esta imagem representa?</p>
+                <img src="imagem-java.webp" width="20%" alt="Logo oficial da linguagem de programação Java" class="mb-3">
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="java-q2" name="02pergunta" value="java">
+                    <label class="form-check-label" for="java-q2">Java</label>
+                </div>
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="js-q2" name="02pergunta" value="javascript">
+                    <label class="form-check-label" for="js-q2">Javascript</label>
+                </div>
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="python-q2" name="02pergunta" value="python">
+                    <label class="form-check-label" for="python-q2">Python</label>
+                </div>
+            </div>
 
-            <input type="radio" id="java" name="02pergunta" value="java">
-            <label>Java</label>
+            <div class="mb-4 p-3 border rounded">
+                <p class="fw-bold">03 - O que a tag &lt;header&gt; faz?</p>
+                
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="body-q3" name="03pergunta" value="body-errada">
+                    <label class="form-check-label" for="body-q3">contém todo o conteúdo visível de uma página web, como textos, imagens, formulários e outros elementos que o usuário final vê e interage.</label>
+                </div>
+                
+                <div class="form-check text-start mt-2">
+                    <input class="form-check-input" type="radio" id="footer-q3" name="03pergunta" value="footer-errada">
+                    <label class="form-check-label" for="footer-q3">representa o rodapé de uma página ou de uma seção específica, contendo informações como direitos autorais, links de contato ou políticas de privacidade.</label>
+                </div>
+                
+                <div class="form-check text-start mt-2">
+                    <input class="form-check-input" type="radio" id="header-q3" name="03pergunta" value="header-certa">
+                    <label class="form-check-label" for="header-q3">define um cabeçalho para uma página ou uma seção de conteúdo.</label>
+                </div>
+            </div>
 
-            <input type="radio" id="javascript" name="02pergunta" value="javascript">
-            <label>Javascript</label>
+            <div class="mb-4 p-3 border rounded">
+                <p class="fw-bold">04 - Para que serve uma div?</p>
 
-            <input type="radio" id="python" name="02pergunta" value="python">
-            <label>python</label>
-        </div>
-        <div>
-            <p>03 - O que a tag reader faz?</p>
-
-            <input type="radio" id="body" name="03pergunta" value="reader-errada">
-            <label>contém todo o conteúdo visível de uma página web, como textos,
-                imagens, formulários e outros elementos que o usuário final vê e interage</label><br>
-
-            <input type="radio" id="footer" name="03pergunta" value="reader-errada">
-            <label>representa o rodapé de uma página ou de uma seção específica de uma página,
-                contendo informações como direitos autorais, autorias, links de contato,
-                políticas de privacidade e links para documentos relacionados</label><br>
-
-            <input type="radio" id="header" name="03pergunta" value="reader-certa">
-            <label>define um cabeçalho para uma página ou uma seção de conteúdo</label>
-
-        </div>
-        <div>
-            <p>04 - Para que serve uma div?</p>
-
-            <input type="radio" id="form" name="04pergunta" value="div-errada">
-            <label>serve como um contêiner para coletar e
-                enviar dados de um usuário a um servidor web</label><br>
-
-            <input type="radio" id="container" name="04pergunta" value="div-errada">
-            <label>agrupa e organiza outros elementos</label><br>
-
-
-            <input type="radio" id="div" name="04pergunta" value="div-certa">
-            <label>serve como um contêiner genérico para agrupar outros elementos,
-                permitindo organizar e estilizar blocos de conteúdo em uma página</label>
-
-        </div>
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </div>
-    </form>
-    <script src="script.js"></script>
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="radio" id="form-q4" name="04pergunta" value="form-errada">
+                    <label class="form-check-label" for="form-q4">serve como um contêiner para coletar e enviar dados de um usuário a um servidor web.</label>
+                </div>
+                
+                <div class="form-check text-start mt-2">
+                    <input class="form-check-input" type="radio" id="container-q4" name="04pergunta" value="container-errada">
+                    <label class="form-check-label" for="container-q4">agrupa e organiza outros elementos.</label>
+                </div>
+                
+                <div class="form-check text-start mt-2">
+                    <input class="form-check-input" type="radio" id="div-q4" name="04pergunta" value="div-certa">
+                    <label class="form-check-label" for="div-q4">serve como um contêiner genérico para agrupar outros elementos, permitindo organizar e estilizar blocos de conteúdo em uma página.</label>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary me-2">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button> </div>
+            
+        </form>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
 </body>
-
 </html>
